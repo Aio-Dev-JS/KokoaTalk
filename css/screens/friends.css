@@ -28,6 +28,14 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.friends-screen_channel > .user-component:hover {
+  border-radius: 20px;
+  transform: scaleX(1.06);
+  padding: 0px 14px;
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
 @keyframes hideSplashScreen {
   from {
     opacity: 1;
